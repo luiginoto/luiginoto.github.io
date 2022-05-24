@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "Luigi Noto"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Science graduate student at New York University"
+  bio              : "MS in Data Science at NYU"
   location         : "New York, NY"
   email            : 
   links:
@@ -239,7 +239,7 @@ defaults:
       type: posts
     values:
       layout: single
-      classes: wide
+      # classes: wide
       author_profile: true
       read_time: true
       comments: true
@@ -251,7 +251,7 @@ defaults:
       type: pages
     values:
       layout: single
-      classes: wide
+      # classes: wide
       author_profile: true
   # _teaching
   - scope:
@@ -259,7 +259,7 @@ defaults:
       type: teaching
     values:
       layout: single
-      classes: wide
+      # classes: wide
       author_profile: true
       share: true
       comments: true
@@ -269,7 +269,7 @@ defaults:
       type: publications
     values:
       layout: single
-      classes: wide
+      # classes: wide
       author_profile: true
       share: true
       comments: true
@@ -279,7 +279,7 @@ defaults:
       type: portfolio
     values:
       layout: single
-      classes: wide
+      # classes: wide
       author_profile: true
       share: true
       comment: true
