@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Luigi Noto"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/photo.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "MS in Data Science at NYU"
   location         : "New York, NY"
   email            : 
