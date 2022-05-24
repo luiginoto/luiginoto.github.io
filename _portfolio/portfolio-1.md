@@ -1,6 +1,6 @@
 ---
 title: "MovieLens Recommender System and Extensions"
-excerpt: "Implementation and evaluation of a collaborative-filtering based recommender system with Spark using the MovieLens dataset, with comparison to single-machine implementation and application of approximate nearest neighbor method for accelerated search at query time."
+excerpt: "Implementation and evaluation of a collaborative-filtering based recommender system with Spark using the MovieLens dataset. (May 2022)"
 collection: portfolio
 ---
 
