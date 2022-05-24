@@ -16,7 +16,6 @@ We build and evaluate a collaborative-filtering based recommender system with [S
 - Giacomo Bugli
 - Luigi Noto
 
-<div align="center">
 
 **Validated Best ALS Results**
 
@@ -27,4 +26,4 @@ We build and evaluate a collaborative-filtering based recommender system with [S
 |  Full (Train) |    0.1    |  30  |    35    |  0.1795 |  0.2659  |
 |  Full (Test)  |    0.1    |  30  |    35    |  0.0832 |  0.1973  |
 
-</div>
+

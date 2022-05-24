@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hi"
+title: "Welcome"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Hi 
+I am a student of the MS in Data 
