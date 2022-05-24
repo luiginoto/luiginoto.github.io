@@ -1,10 +1,10 @@
 ---
 title: "MovieLens Recommender System and Extensions"
-excerpt: "Implementation and evaluation of a collaborative-filtering based recommender system with Spark using the MovieLens dataset. (May 2022)"
+excerpt: "Implementation and evaluation of a collaborative-filtering recommender system with Spark using the MovieLens dataset. (May 2022)"
 collection: portfolio
 ---
 
-Implementation and evaluation of a collaborative-filtering based recommender system with Spark using the MovieLens dataset, with comparison to single-machine implementation and application of approximate nearest neighbor method for accelerated search at query time.
+Implementation and evaluation of a collaborative-filtering recommender system with Spark using the MovieLens dataset, with comparison to single-machine implementation and application of approximate nearest neighbor method for accelerated search at query time.
 
 [Report](http://luiginoto.github.io/files/movielens_recommender_system/Project_Report.pdf) [Repository](https://github.com/luiginoto/movielens_recommender_system)
 
