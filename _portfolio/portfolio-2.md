@@ -13,6 +13,7 @@ Analysis of Australia weather data from [Kaggle](https://www.kaggle.com/datasets
 - Giacomo Bugli
 - Luigi Noto
 
+<br/>
 <img src='/images/weather_australia/question_1_2.png'>
 
 <img src='/images/weather_australia/question_1_3.png'>

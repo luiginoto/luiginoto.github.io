@@ -16,8 +16,7 @@ We build and evaluate a collaborative-filtering based recommender system with [S
 - Giacomo Bugli
 - Luigi Noto
 
-
-
+<br/>
 **Validated Best ALS Results**
 
 |   Data Size   | Reg Param | Rank | Max Iter | MAP@100 | NCDG@100 |
