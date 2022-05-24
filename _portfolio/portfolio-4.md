@@ -5,7 +5,8 @@ collection: portfolio
 ---
 
 Trained and validated ML classification models to predict the probability of default
-on a loan with a dataset about US small businesses provided by the US Small Business Administration. (Gradient Boosting with 0.93 test accuracy, 0.93 test sensitivity)
+on a loan with a dataset about US small businesses provided by the US Small Business Administration.\
+Final model: XGBoost with 0.93 test accuracy, 0.93 test sensitivity.
 
 [Report](http://luiginoto.github.io/files/loan_default_prediction/loan_default_prediction.pdf) [Repository](https://github.com/luiginoto/loan_default_prediction)
 
