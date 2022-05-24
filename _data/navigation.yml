@@ -5,8 +5,8 @@ main:
   # - title: "Talks"
   #   url: /talks/  
   - title: "CV"
-      # url: /cv/
-      url: http://luiginoto.github.io/files/Resume_LuigiNoto.pdf
+      url: /cv/
+      # url: http://luiginoto.github.io/files/Resume_LuigiNoto.pdf
   # - title: "Blog Posts"
   #   url: /year-archive/
   # - title: "Quick-Start Guide"
