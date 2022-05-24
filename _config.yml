@@ -106,7 +106,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science graduate student at New York University"
   location         : "New York, NY"
-  email            : "ln2205@nyu.edu"
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -123,6 +123,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/luiginoto"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin-square"
+      url: "https://www.linkedin.com/in/luiginoto"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
