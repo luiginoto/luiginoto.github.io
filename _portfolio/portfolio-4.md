@@ -4,7 +4,7 @@ excerpt: "ML classification modeling to predict loan default probability. (Decem
 collection: portfolio
 ---
 
-Trained and validated ML classification models to predict the probability of default
+Trained and evaluated ML classification models to predict the probability of default
 on a loan with a dataset about US small businesses provided by the US Small Business Administration.\
 Final model: XGBoost with 93% test accuracy and 93% test sensitivity.
 
