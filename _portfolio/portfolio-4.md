@@ -1,28 +1,22 @@
 ---
-title: "Loan Default Prediction"
-excerpt: "ML classification modeling to predict loan default probability. (December 2020)"
+title: "Analysis of Weather Data in Australia"
+excerpt: "Hypothesis testing and ML predictive modeling with Australia weather data. (December 2021)"
 collection: portfolio
 ---
 
-Trained and evaluated ML classification models to predict the probability of default
-on a loan with a dataset about US small businesses provided by the US Small Business Administration.\
-Final model: XGBoost with 93% test accuracy and 93% test sensitivity.
+Analysis of Australia weather data from [Kaggle](https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package) and the [Australian Government Bureau of Meteorology](http://www.bom.gov.au/jsp/ncc/cdio/weatherData/av?p_nccObsCode=122&p_display_type=dailyDataFile&p_startYear=&p_c=&p_stn_num=086282). Performed hypothesis testing (resampling methods) on temperature data to investigate climate change. Trained and evaluated ML classification models to predict next day rain occurrence.\
+Final model: XGBoost with 0.90 test AUC and 0.75 test average precision score.
 
-[Report](http://luiginoto.github.io/files/loan_default_prediction/loan_default_prediction.pdf) [Repository](https://github.com/luiginoto/loan_default_prediction)
-
-### Abstract
-The goal of the analysis is to predict whether or not a loan should be approved based on a dataset provided by the U.S. Small Business Administration (SBA), available on [Kaggle](https://www.kaggle.com/mirbektoktogaraev/should-this-loan-be-approved-or-denied). In order to do so default predictive classification models are estimated to understand which variables are most likely to influence this process, using logistic regression, decision trees, random forest and gradient boosting. This dataset has been chosen because the SBA is a reliable government organization, founded in 1953, that fosters small business formation and growth, which have considerable social benefits by creating job opportunities and reducing unemployment in the United States of America.
+[Report](http://luiginoto.github.io/files/weather_australia/Capstone_Project_Report.pdf) [Repository](https://github.com/luiginoto/weather_australia)
 
 ### Authors
-- Giacomo Bugli
-- Chiara D'Ignazio
-- Davide Drago
-- Nunzio Fallico
 - Luigi Noto
-- Mert Tekdemir
+- Giacomo Bugli
+- Guilherme Albertini
 
 <br/>
+<img src='/images/weather_australia/question_1_2.png'>
 
-<img src='/images/loan_default_prediction/default_rate_heatmap.png'>
+<img src='/images/weather_australia/question_1_3.png'>
 
-
+<img src='/images/weather_australia/3_roc_auc.png'>

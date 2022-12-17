@@ -1,30 +1,20 @@
 ---
-title: "MovieLens Recommender System and Extensions"
-excerpt: "Implementation and evaluation of a collaborative-filtering recommender system with Spark using the MovieLens dataset. (May 2022)"
+title: "Neural Re-Ranking for Personalized Home Search"
+excerpt: "Implementation and evaluation of a self-attention based context-aware re-ranking model for improving personalized home search experience at Zillow (December 2022)"
 collection: portfolio
 ---
 
-Implementation and evaluation of a collaborative-filtering recommender system with Spark using the MovieLens dataset, with comparison to single-machine implementation and application of approximate nearest neighbor method for accelerated search at query time.
+Implementation and evaluation of a self-attention based context-aware re-ranking model for improving personalized home search experience at Zillow as part of the Capstone Project for MS in Data Science at NYU.
 
-[Report](http://luiginoto.github.io/files/movielens_recommender_system/Project_Report.pdf) [Repository](https://github.com/luiginoto/movielens_recommender_system)
+[Poster](http://luiginoto.github.io/files/neural_reranking/Capstone_Poster_Team_D.pdf) [Report](http://luiginoto.github.io/files/neural_reranking/Capstone_Final_Report.pdf) [Repository](https://github.com/luiginoto/movielens_recommender_system)
 
 ### Abstract
-We build and evaluate a collaborative-filtering based recommender system with [Spark alternating least squares (ALS)](https://spark.apache.org/docs/3.0.1/ml-collaborative-filtering.html) implementation using the [MovieLens dataset](https://grouplens.org/datasets/movielens/latest/). We compare the Spark’s parallel ALS model to [LensKit](https://lkpy.readthedocs.io/en/stable/index.html) single-machine implementation in terms of efficiency and model performance. Finally, we implement accelerated search at query time using [Annoy](https://github.com/spotify/annoy) spatial data structure, and compare this fast search method to the brute force approach in terms of query efficiency and quality of recommendation.
+Search Systems generate search results via multiple stages of incremental modeling complexity, where the set of candidate items gets progressively narrowed down and ranked based on some notion of relevance. The last step of this process, the re-ranking layer, is then aimed at refining the ranking produced in the previous steps by modeling the cross-item interactions as well as users’ preference behaviors. In this project we partnered with Zillow Group to improve their search feature by implementing context-aware personalized re-ranking for home search. We adopt a self-attention based neural architecture to directly model the mutual influences between all items in the previously ranked list. The experimental results on the dataset provided by Zillow demonstrate significant performance gains of the proposed model with respect to the considered baselines. Finally, we prove that personalization has a positive impact on the re-ranking problem by conducting a feature ablation study.
 
 ### Authors
-- Guilherme Albertini
-- Giacomo Bugli
 - Luigi Noto
-
-<br/>
-**Validated Best ALS Results**
-
-|   Data Size   | Reg Param | Rank | Max Iter | MAP@100 | NCDG@100 |
-|:-------------:|:---------:|:----:|:--------:|:-------:|:--------:|
-| Small (Train) |    0.01   |  30  |    20    |  0.1232 |  0.3541  |
-|  Small (Test) |    0.01   |  30  |    20    |  0.0661 |  0.1621  |
-|  Full (Train) |    0.1    |  30  |    35    |  0.1795 |  0.2659  |
-|  Full (Test)  |    0.1    |  30  |    35    |  0.0832 |  0.1973  |
+- Giacomo Bugli
+- Guilherme Albertini
 
 
 

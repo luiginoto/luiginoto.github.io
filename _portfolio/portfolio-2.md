@@ -1,22 +1,20 @@
 ---
-title: "Analysis of Weather Data in Australia"
-excerpt: "Hypothesis testing and ML predictive modeling with Australia weather data. (December 2021)"
+title: "Meta-Learning for Cross-lingual COVID-19 Fake News Detection in Low-Resource Languages"
+excerpt: "Investigation of a meta-learning approach to few-shot cross-lingual adaptation for document classification with an application to cross-lingual COVID-19 fake news detection in low-resource languages (December 2022)"
 collection: portfolio
 ---
 
-Analysis of Australia weather data from [Kaggle](https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package) and the [Australian Government Bureau of Meteorology](http://www.bom.gov.au/jsp/ncc/cdio/weatherData/av?p_nccObsCode=122&p_display_type=dailyDataFile&p_startYear=&p_c=&p_stn_num=086282). Performed hypothesis testing (resampling methods) on temperature data to investigate climate change. Trained and evaluated ML classification models to predict next day rain occurrence.\
-Final model: XGBoost with 0.90 test AUC and 0.75 test average precision score.
+Investigation of a meta-learning approach to few-shot cross-lingual adaptation for document classification with an application to cross-lingual COVID-19 fake news detection in low-resource languages. The experiments demonstrate the ability of the meta-learning approach to outperform classical multilingual models for fake-news detection.
 
-[Report](http://luiginoto.github.io/files/weather_australia/Capstone_Project_Report.pdf) [Repository](https://github.com/luiginoto/weather_australia)
+[Poster](http://luiginoto.github.io/files/meta_learning_fake_news/nlp_poster.pdf) [Report](http://luiginoto.github.io/files/meta_learning_fake_news/nlp_final_report.pdf) [Repository](https://github.com/luiginoto/meta_learning_fake_news)
+
+### Abstract
+As we went through a COVID-19 pandemic that imposed many challenges to the communities around the world and their health systems, serious questions arose surrounding the credibility of news about medical and political information, such as prevention, treatment, causes, and consequences of the disease on people’s well-being. Deep learning (DL) models are notorious for being data- and computation-intensive, making the great majority of languages in the world under-resourced for the successful application of deep-learning based automatic fake-news detection applications. To overcome the limitations imposed by these approaches, a solution to the problem of automatic fake-news detection in low-resource languages could be resorting to meta-learning. Therefore, we adopt and investigate a meta-learning framework, proposed by van der Heijden et al. (2021) for few-shot cross-lingual adaptation and multilingual joint-learning for document classification tasks, with the proposal to apply this approach for few-shot cross-lingual COVID-19 fake news detection in low resource languages. The experiments demonstrate the ability of the meta-learning approach to outperform classical multilingual models for fake-news detection.
 
 ### Authors
-- Guilherme Albertini
-- Giacomo Bugli
 - Luigi Noto
+- Giacomo Bugli
+- Anirudh Nistala
 
-<br/>
-<img src='/images/weather_australia/question_1_2.png'>
 
-<img src='/images/weather_australia/question_1_3.png'>
 
-<img src='/images/weather_australia/3_roc_auc.png'>

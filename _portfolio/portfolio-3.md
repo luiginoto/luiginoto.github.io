@@ -1,23 +1,31 @@
 ---
-title: "Bayesian Learning: Clustering with the Dirichlet Process Mixture Model"
-excerpt: "Final dissertation for the BSc in Economics, Management and Computer Science at Bocconi University. (June 2021)"
+title: "MovieLens Recommender System and Extensions"
+excerpt: "Implementation and evaluation of a collaborative-filtering recommender system with Spark using the MovieLens dataset. (May 2022)"
 collection: portfolio
 ---
 
-Final dissertation for the BSc in Economics, Management and Computer Science at Bocconi University.
+Implementation and evaluation of a collaborative-filtering recommender system with Spark using the MovieLens dataset, with comparison to single-machine implementation and application of approximate nearest neighbor method for accelerated search at query time.
 
-Supervisor: Prof. Antonio Lijoi
-
-[Thesis](http://luiginoto.github.io/files/dpmm_clustering/bachelor_thesis.pdf) [Repository](https://github.com/luiginoto/dpmm_clustering)
+[Report](http://luiginoto.github.io/files/movielens_recommender_system/Project_Report.pdf) [Repository](https://github.com/luiginoto/movielens_recommender_system)
 
 ### Abstract
-Bayesian nonparametric models have gained widespread popularity for many machine learning problems thanks to their higher modeling flexibility with respect to parametric models. This paper explores the application of Bayesian nonparametrics to clustering, by means of the Dirichlet process mixture model (DPMM). It has been structured as a discussion of all the fundamental theory behind the DPMM applied to cluster analysis, including the background knowledge necessary for its full understanding. Thus, the paper begins by introducing the general Bayesian nonparametric framework, including its theoretical foundation represented by de Finetti’s representation theorem. Moreover, it provides a detailed review of finite mixture modeling, in order to understand its limitations due to the finite number of clusters assumed in the population. Then, it continues with an explanation of the Dirichlet process, focusing on its constructive definition and the Pólya urn scheme, and of Markov chain Monte Carlo methods. The main results concerning the DPMM are then analyzed, with particular attention to its clustering property, namely the distribution on partitions of experimental units that it implicitly defines, obtaining the definition of infinite mixture modeling. The theory is concluded with the description of a procedure for performing posterior inference about the cluster parameters in the DPMM, based on Gibbs sampling. The final part is about an application of the model for clustering real data, including an analysis of the sensitivity to the model hyperparameters, in order to practically show its benefits, but also put in evidence potential limitations regarding the prior parameter specification that might arise in practice.
+We build and evaluate a collaborative-filtering based recommender system with [Spark alternating least squares (ALS)](https://spark.apache.org/docs/3.0.1/ml-collaborative-filtering.html) implementation using the [MovieLens dataset](https://grouplens.org/datasets/movielens/latest/). We compare the Spark’s parallel ALS model to [LensKit](https://lkpy.readthedocs.io/en/stable/index.html) single-machine implementation in terms of efficiency and model performance. Finally, we implement accelerated search at query time using [Annoy](https://github.com/spotify/annoy) spatial data structure, and compare this fast search method to the brute force approach in terms of query efficiency and quality of recommendation.
 
+### Authors
+- Luigi Noto
+- Giacomo Bugli
+- Guilherme Albertini
+
+<!---
 <br/>
+**Validated Best ALS Results**
 
-<img src='/images/dpmm_clustering/dpmm_posterior_mean_univariate.png'>
-
-<img src='/images/dpmm_clustering/clustering_multivariate.png'>
-
+|   Data Size   | Reg Param | Rank | Max Iter | MAP@100 | NCDG@100 |
+|:-------------:|:---------:|:----:|:--------:|:-------:|:--------:|
+| Small (Train) |    0.01   |  30  |    20    |  0.1232 |  0.3541  |
+|  Small (Test) |    0.01   |  30  |    20    |  0.0661 |  0.1621  |
+|  Full (Train) |    0.1    |  30  |    35    |  0.1795 |  0.2659  |
+|  Full (Test)  |    0.1    |  30  |    35    |  0.0832 |  0.1973  |
+-->
 
 
