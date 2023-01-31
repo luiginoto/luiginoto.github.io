@@ -6,8 +6,10 @@ collection: portfolio
 
 Implementation and evaluation of a self-attention based context-aware re-ranking model for improving personalized home search experience at Zillow as part of the Capstone Project for MS in Data Science at NYU.
 
+
+[Poster](http://luiginoto.github.io/files/neural_reranking/Capstone_Poster_Team_D.pdf)
 <!---
-[Poster](http://luiginoto.github.io/files/neural_reranking/Capstone_Poster_Team_D.pdf) [Report](http://luiginoto.github.io/files/neural_reranking/Capstone_Final_Report.pdf)
+[Report](http://luiginoto.github.io/files/neural_reranking/Capstone_Final_Report.pdf)
 -->
 
 ### Abstract
